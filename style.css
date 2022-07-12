@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(30, 38%, 92%) !important;
+}
+
+p {
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-weight: 700px;
+    font-family: Fraunces;
+}
+
+.container-sm {
+    margin: 180px;
+    max-width: 800px !important;
+}
+
+#col1 {
+    background: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#col2 {
+    background-color: white;
+    padding: 50px;
+    text-align: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#price-1 {
+    font-size: xx-large;
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+}
+
+#price-2 {
+    text-align: center;
+    padding-left: 15px;
+    font-family: Montserrat;
+}
+
+#btn1 {
+    background-color: hsl(158, 38%, 25%);
+    border-radius: 10px;
+    border: none;
+}
+
+i {
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+#btn1:hover {
+    background-color: grey;
+    color: white;
+}
